@@ -1,0 +1,105 @@
+.fond-blanc {
+  width: 414px;
+  height: :667px;
+  background-color: grey;
+  margin: auto;
+  min-height: 100vh;
+  padding: 0px 0px;
+  background-image:url(image/maptwo.png);
+}
+
+.fondmaptwo{
+  background-color:white;
+  background-image:url(image/maptwo.png);
+  background-size:615px;
+  background-position-x: center;
+  position: relative;
+}
+.rectangle-blanc {
+  border-top: 1px solid white;
+  border-bottom:1px solid white;
+  margin: 0px;
+  padding right:200px;
+  width: 334px;
+  height: 100%;
+  background-color: white;
+  text-align: left;
+  margin: auto;
+  padding: 0px 0px;
+  position: relative;
+  top: 0px;
+  left: 40px;
+}
+
+.rectangle-noir {
+  border-top: 1px solid #730FF4;
+  border-bottom:1px solid #730FF4;
+  width: 335px;
+  height: 100%;
+  margin-left: 80px;
+  background-color: black;
+  text-align: left;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.croix {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+.fleche-one {
+  width: 20px;
+  padding-right: 25px;
+  right: 40px;
+  bottom: 20px;
+}
+
+.termine { 
+  width: 140px;
+  position: absolute;
+  left:100px;
+  bottom: 0px;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+
+}
+
+h1 {
+color: black;
+position: relative;
+text-align: center;
+padding-top: 15px;
+
+}
+
+h2 {
+color: white;
+position: relative;
+text-align: left;
+padding-left: 30px;
+
+}
+
+h3{
+  color: white;
+  position: relative;
+  text-align: left;
+  top: -7px;
+  right: -32px;
+  font-weight: lighter;
+  font-size: 14;
+}
+
+.rectangle-container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
